@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "CrystalDecisions.CrystalReports.Engine/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
+        },
+        "runtime": {
+          "lib/CrystalDecisions.CrystalReports.Engine.dll": {}
+        }
+      },
+      "CrystalDecisions.Shared/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/CrystalDecisions.Shared.dll": {}
+        },
+        "runtime": {
+          "lib/CrystalDecisions.Shared.dll": {}
+        }
+      },
+      "log4net/3.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net462/log4net.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/log4net.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CrystalDecisions.CrystalReports.Engine/1.0.0": {
+      "sha512": "qr+XgfiEvAWXModuJy4IamWlkarFNL6c2ueA9PcZkLUkoz17L0rptDNzLzJkFaSP8hh+nAwfD2t3wvRLdbjFQw==",
+      "type": "package",
+      "path": "crystaldecisions.crystalreports.engine/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "crystaldecisions.crystalreports.engine.1.0.0.nupkg.sha512",
+        "crystaldecisions.crystalreports.engine.nuspec",
+        "lib/CrystalDecisions.CrystalReports.Engine.dll"
+      ]
+    },
+    "CrystalDecisions.Shared/1.0.0": {
+      "sha512": "M3T2xrJ/oTrPUu3j0ODVhP981QTPdoHSly47IfrIWy7UUROpfF1p8jRTYzBoy2toQ2B5PKtnnkpAimp2mtnrdg==",
+      "type": "package",
+      "path": "crystaldecisions.shared/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "crystaldecisions.shared.1.0.0.nupkg.sha512",
+        "crystaldecisions.shared.nuspec",
+        "lib/CrystalDecisions.Shared.dll"
+      ]
+    },
+    "log4net/3.0.4": {
+      "sha512": "4jJlhW7fTLIm0Ktq1FGlmgavlkEbfHCbqWEusacKQBq7NQ85vJOu5jjISCeOI4Pyu3kqIiAktv8WLKvyq6evwA==",
+      "type": "package",
+      "path": "log4net/3.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/log4net.dll",
+        "lib/net462/log4net.pdb",
+        "lib/net462/log4net.xml",
+        "lib/netstandard2.0/log4net.dll",
+        "lib/netstandard2.0/log4net.pdb",
+        "lib/netstandard2.0/log4net.xml",
+        "log4net.3.0.4.nupkg.sha512",
+        "log4net.nuspec",
+        "package-icon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "CrystalDecisions.CrystalReports.Engine >= 1.0.0",
+      "CrystalDecisions.Shared >= 1.0.0",
+      "log4net >= 3.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\alza\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\alza\\source\\repos\\ProgressCrystalReport\\ProgressCrystalReport\\ProgressCrystalReport.csproj",
+      "projectName": "ProgressCrystalReport",
+      "projectPath": "C:\\Users\\alza\\source\\repos\\ProgressCrystalReport\\ProgressCrystalReport\\ProgressCrystalReport.csproj",
+      "packagesPath": "C:\\Users\\alza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alza\\source\\repos\\ProgressCrystalReport\\ProgressCrystalReport\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\alza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.org/api/v2": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "CrystalDecisions.CrystalReports.Engine": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CrystalDecisions.Shared": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[3.0.4, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

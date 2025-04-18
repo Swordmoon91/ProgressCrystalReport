@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "B3+/5wTW7Yo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alza\\source\\repos\\ProgressCrystalReport\\ProgressCrystalReport\\ProgressCrystalReport.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alza\\.nuget\\packages\\crystaldecisions.crystalreports.engine\\1.0.0\\crystaldecisions.crystalreports.engine.1.0.0.nupkg.sha512",
+    "C:\\Users\\alza\\.nuget\\packages\\crystaldecisions.shared\\1.0.0\\crystaldecisions.shared.1.0.0.nupkg.sha512",
+    "C:\\Users\\alza\\.nuget\\packages\\log4net\\3.0.4\\log4net.3.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

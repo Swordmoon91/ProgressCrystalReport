@@ -1,0 +1,77 @@
+2025-04-17 18:07:11,576 [1] ERROR CrystalReportConsole.Program - Errore durante la lettura del file dei parametri: Indice oltre i limiti della matrice.
+System.IndexOutOfRangeException: Indice oltre i limiti della matrice.
+   in CrystalReportConsole.Program.Main(String[] args)
+2025-04-17 18:08:09,951 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Incompatibilità tra tipi.
+System.Runtime.InteropServices.COMException (0x80004005): Incompatibilità tra tipi.
+   in CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Refresh()
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.FormatEngine.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 282
+2025-04-17 18:14:29,470 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Incompatibilità tra tipi.
+System.Runtime.InteropServices.COMException (0x80004005): Incompatibilità tra tipi.
+   in CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Refresh()
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.FormatEngine.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 282
+2025-04-17 18:14:37,999 [1] ERROR CrystalReportConsole.Program - Errore durante l'esecuzione: Incompatibilità tra tipi.
+System.Runtime.InteropServices.COMException (0x80004005): Incompatibilità tra tipi.
+   in CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Refresh()
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.FormatEngine.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 328
+   in CrystalReportConsole.Program.Main(String[] args) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 171
+2025-04-18 10:13:50,714 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Incompatibilità tra tipi.
+System.Runtime.InteropServices.COMException (0x80004005): Incompatibilità tra tipi.
+   in CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Refresh()
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.FormatEngine.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 282
+2025-04-18 10:44:08,912 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+System.Runtime.InteropServices.COMException (0x8002000B): Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   in CrystalDecisions.ReportAppServer.DataDefModel.FieldsClass.get_Item(Int32 Index)
+   in CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.get_Item(Int32 index)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(Int32 index, Object val)
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 356
+2025-04-18 10:44:09,000 [1] ERROR CrystalReportConsole.Program - Errore durante l'esecuzione: Eccezione lanciata da un componente esterno.
+System.Runtime.InteropServices.SEHException (0x80004005): Eccezione lanciata da un componente esterno.
+   in CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack formatPageEventCallBack)
+   in CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack eventCallback)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.ClearCache(Boolean clearDocument)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.InternalClose(Boolean bSetupForNextReport)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Close()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 415
+   in CrystalReportConsole.Program.Main(String[] args) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 171
+2025-04-18 10:57:41,989 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+System.Runtime.InteropServices.COMException (0x8002000B): Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   in CrystalDecisions.ReportAppServer.DataDefModel.FieldsClass.get_Item(Int32 Index)
+   in CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.get_Item(Int32 index)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(Int32 index, Object val)
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 356
+2025-04-18 10:57:42,236 [1] ERROR CrystalReportConsole.Program - Errore durante l'esecuzione: Eccezione lanciata da un componente esterno.
+System.Runtime.InteropServices.SEHException (0x80004005): Eccezione lanciata da un componente esterno.
+   in CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack formatPageEventCallBack)
+   in CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack eventCallback)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.ClearCache(Boolean clearDocument)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.InternalClose(Boolean bSetupForNextReport)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Close()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 415
+   in CrystalReportConsole.Program.Main(String[] args) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 171
+2025-04-18 11:57:52,589 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+System.Runtime.InteropServices.COMException (0x8002000B): Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   in CrystalDecisions.ReportAppServer.DataDefModel.FieldsClass.get_Item(Int32 Index)
+   in CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.get_Item(Int32 index)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(Int32 index, Object val)
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 356
+2025-04-18 11:57:52,754 [1] ERROR CrystalReportConsole.Program - Errore durante l'esecuzione: Eccezione lanciata da un componente esterno.
+System.Runtime.InteropServices.SEHException (0x80004005): Eccezione lanciata da un componente esterno.
+   in CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack formatPageEventCallBack)
+   in CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack eventCallback)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.ClearCache(Boolean clearDocument)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.InternalClose(Boolean bSetupForNextReport)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Close()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 415
+   in CrystalReportConsole.Program.Main(String[] args) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 171

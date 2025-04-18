@@ -1,0 +1,357 @@
+2025-04-18 10:13:42,378 [1] INFO  CrystalReportConsole.Program - === ProgressCrystalReport avviato ===
+2025-04-18 10:13:42,399 [1] DEBUG CrystalReportConsole.Program - Parsing di 10 parametri
+2025-04-18 10:13:42,399 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -r=Sregter.rpt
+2025-04-18 10:13:42,399 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -d=Logis-62012
+2025-04-18 10:13:42,399 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -p=reports
+2025-04-18 10:13:42,399 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -o=C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:13:42,399 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -f=Parms.txt
+2025-04-18 10:13:42,399 [1] DEBUG CrystalReportConsole.Program - Parametri parsati: -r, -d, -p, -o, -f
+2025-04-18 10:13:42,400 [1] INFO  CrystalReportConsole.Program - Report path: Sregter.rpt
+2025-04-18 10:13:42,400 [1] INFO  CrystalReportConsole.Program - DSN ODBC: Logis-62012
+2025-04-18 10:13:42,400 [1] INFO  CrystalReportConsole.Program - Output path: C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:13:42,400 [1] INFO  CrystalReportConsole.Program - Lettura parametri dal file: Parms.txt
+2025-04-18 10:13:42,401 [1] DEBUG CrystalReportConsole.Program - Trovati 7 parametri nel file
+2025-04-18 10:13:42,401 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 1 = 108666966
+2025-04-18 10:13:42,401 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 2 = 1
+2025-04-18 10:13:42,401 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 3 = 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:13:42,401 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 4 = Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:13:42,401 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 5 = 0
+2025-04-18 10:13:42,402 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 6 = X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:13:42,402 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 7 = X:\Logis-Svil\LogisD\
+2025-04-18 10:13:49,001 [1] INFO  CrystalReportConsole.Program - Avvio del report in corso...
+2025-04-18 10:13:49,418 [1] INFO  CrystalReportConsole.Program - Caricamento del report: Sregter.rpt
+2025-04-18 10:13:50,560 [1] INFO  CrystalReportConsole.Program - Configurazione connessione ODBC...
+2025-04-18 10:13:50,561 [1] DEBUG CrystalReportConsole.Program - Applicazione informazioni di connessione alle tabelle...
+2025-04-18 10:13:50,595 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella: taskw
+2025-04-18 10:13:50,619 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_COPERTINA.rpt
+2025-04-18 10:13:50,619 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_DATI.rpt
+2025-04-18 10:13:50,620 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: taskt
+2025-04-18 10:13:50,620 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_GENE
+2025-04-18 10:13:50,620 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_TIDO
+2025-04-18 10:13:50,620 [1] INFO  CrystalReportConsole.Program - Connessione applicata a tutte le tabelle
+2025-04-18 10:13:50,621 [1] INFO  CrystalReportConsole.Program - Impostazione di 7 parametri del report
+2025-04-18 10:13:50,621 [1] DEBUG CrystalReportConsole.Program - Parametro:108666966
+2025-04-18 10:13:50,631 [1] DEBUG CrystalReportConsole.Program - Parametro:1
+2025-04-18 10:13:50,632 [1] DEBUG CrystalReportConsole.Program - Parametro:0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:13:50,632 [1] DEBUG CrystalReportConsole.Program - Parametro:Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:13:50,633 [1] DEBUG CrystalReportConsole.Program - Parametro:0
+2025-04-18 10:13:50,633 [1] DEBUG CrystalReportConsole.Program - Parametro:X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:13:50,634 [1] DEBUG CrystalReportConsole.Program - Parametro:X:\Logis-Svil\LogisD\
+2025-04-18 10:13:50,634 [1] INFO  CrystalReportConsole.Program - Recupero dei dati...
+2025-04-18 10:13:50,714 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Incompatibilità tra tipi.
+System.Runtime.InteropServices.COMException (0x80004005): Incompatibilità tra tipi.
+   in CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Refresh()
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.FormatEngine.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 282
+2025-04-18 10:13:50,765 [1] DEBUG CrystalReportConsole.Program - Pulizia delle risorse del report
+2025-04-18 10:21:11,966 [1] INFO  CrystalReportConsole.Program - === ProgressCrystalReport avviato ===
+2025-04-18 10:21:11,982 [1] DEBUG CrystalReportConsole.Program - Parsing di 10 parametri
+2025-04-18 10:21:11,982 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -r=Sregter.rpt
+2025-04-18 10:21:11,982 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -d=Logis-62012
+2025-04-18 10:21:11,982 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -p=reports
+2025-04-18 10:21:11,982 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -o=C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:21:11,982 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -f=Parms.txt
+2025-04-18 10:21:11,983 [1] DEBUG CrystalReportConsole.Program - Parametri parsati: -r, -d, -p, -o, -f
+2025-04-18 10:21:11,983 [1] INFO  CrystalReportConsole.Program - Report path: Sregter.rpt
+2025-04-18 10:21:11,983 [1] INFO  CrystalReportConsole.Program - DSN ODBC: Logis-62012
+2025-04-18 10:21:11,983 [1] INFO  CrystalReportConsole.Program - Output path: C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:21:11,983 [1] INFO  CrystalReportConsole.Program - Lettura parametri dal file: Parms.txt
+2025-04-18 10:21:11,983 [1] DEBUG CrystalReportConsole.Program - Trovati 7 parametri nel file
+2025-04-18 10:21:11,983 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 1 = 108666966
+2025-04-18 10:21:11,984 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 2 = 1
+2025-04-18 10:21:11,984 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 3 = 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:21:11,984 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 4 = Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:21:11,984 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 5 = 0
+2025-04-18 10:21:11,984 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 6 = X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:21:11,984 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 7 = X:\Logis-Svil\LogisD\
+2025-04-18 10:21:50,625 [1] INFO  CrystalReportConsole.Program - Avvio del report in corso...
+2025-04-18 10:21:56,031 [1] INFO  CrystalReportConsole.Program - Caricamento del report: Sregter.rpt
+2025-04-18 10:32:36,769 [1] INFO  CrystalReportConsole.Program - === ProgressCrystalReport avviato ===
+2025-04-18 10:32:36,786 [1] DEBUG CrystalReportConsole.Program - Parsing di 10 parametri
+2025-04-18 10:32:36,787 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -r=Sregter.rpt
+2025-04-18 10:32:36,787 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -d=Logis-62012
+2025-04-18 10:32:36,787 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -p=reports
+2025-04-18 10:32:36,787 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -o=C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:32:36,787 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -f=Parms.txt
+2025-04-18 10:32:36,787 [1] DEBUG CrystalReportConsole.Program - Parametri parsati: -r, -d, -p, -o, -f
+2025-04-18 10:32:36,787 [1] INFO  CrystalReportConsole.Program - Report path: Sregter.rpt
+2025-04-18 10:32:36,787 [1] INFO  CrystalReportConsole.Program - DSN ODBC: Logis-62012
+2025-04-18 10:32:36,787 [1] INFO  CrystalReportConsole.Program - Output path: C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:32:36,787 [1] INFO  CrystalReportConsole.Program - Lettura parametri dal file: Parms.txt
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Trovati 7 parametri nel file
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 1 = 108666966
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 2 = 1
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 3 = 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 4 = Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 5 = 0
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 6 = X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:32:36,788 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 7 = X:\Logis-Svil\LogisD\
+2025-04-18 10:32:43,927 [1] INFO  CrystalReportConsole.Program - Avvio del report in corso...
+2025-04-18 10:32:47,699 [1] INFO  CrystalReportConsole.Program - Caricamento del report: Sregter.rpt
+2025-04-18 10:33:03,295 [1] INFO  CrystalReportConsole.Program - Numero Prametri richiesti : 8
+2025-04-18 10:33:22,610 [1] INFO  CrystalReportConsole.Program - Configurazione connessione ODBC...
+2025-04-18 10:33:25,222 [1] DEBUG CrystalReportConsole.Program - Applicazione informazioni di connessione alle tabelle...
+2025-04-18 10:33:25,248 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella: taskw
+2025-04-18 10:33:25,250 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_COPERTINA.rpt
+2025-04-18 10:33:25,250 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_DATI.rpt
+2025-04-18 10:33:25,251 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: taskt
+2025-04-18 10:33:25,251 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_GENE
+2025-04-18 10:33:25,251 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_TIDO
+2025-04-18 10:33:25,251 [1] INFO  CrystalReportConsole.Program - Connessione applicata a tutte le tabelle
+2025-04-18 10:33:49,740 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TASKT, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:34:15,758 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_COPERTINA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:34:19,724 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_VALUES, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:34:23,663 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TITOLO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:34:35,643 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PRESENTAZIONE, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:34:41,153 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_LOGO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:35:04,838 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_FIRMA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:35:17,552 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: Pm-@NUMBER_TASKT, Tipo: Number, Obbligatorio: True, Multivalore: False
+2025-04-18 10:39:01,493 [1] INFO  CrystalReportConsole.Program - === ProgressCrystalReport avviato ===
+2025-04-18 10:39:01,511 [1] DEBUG CrystalReportConsole.Program - Parsing di 10 parametri
+2025-04-18 10:39:01,511 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -r=Sregter.rpt
+2025-04-18 10:39:01,511 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -d=Logis-62012
+2025-04-18 10:39:01,511 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -p=reports
+2025-04-18 10:39:01,511 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -o=C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:39:01,511 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -f=Parms.txt
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametri parsati: -r, -d, -p, -o, -f
+2025-04-18 10:39:01,512 [1] INFO  CrystalReportConsole.Program - Report path: Sregter.rpt
+2025-04-18 10:39:01,512 [1] INFO  CrystalReportConsole.Program - DSN ODBC: Logis-62012
+2025-04-18 10:39:01,512 [1] INFO  CrystalReportConsole.Program - Output path: C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:39:01,512 [1] INFO  CrystalReportConsole.Program - Lettura parametri dal file: Parms.txt
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Trovati 7 parametri nel file
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 1 = 108666966
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 2 = 1
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 3 = 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 4 = Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 5 = 0
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 6 = X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:39:01,512 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 7 = X:\Logis-Svil\LogisD\
+2025-04-18 10:39:06,997 [1] INFO  CrystalReportConsole.Program - Avvio del report in corso...
+2025-04-18 10:39:25,592 [1] INFO  CrystalReportConsole.Program - Caricamento del report: Sregter.rpt
+2025-04-18 10:39:34,363 [1] INFO  CrystalReportConsole.Program - Numero Parametri richiesti: 8
+2025-04-18 10:39:36,640 [1] INFO  CrystalReportConsole.Program - Configurazione connessione ODBC...
+2025-04-18 10:39:38,607 [1] DEBUG CrystalReportConsole.Program - Applicazione informazioni di connessione alle tabelle...
+2025-04-18 10:39:38,633 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella: taskw
+2025-04-18 10:39:38,634 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_COPERTINA.rpt
+2025-04-18 10:39:38,634 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_DATI.rpt
+2025-04-18 10:39:38,635 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: taskt
+2025-04-18 10:39:38,635 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_GENE
+2025-04-18 10:39:38,636 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_TIDO
+2025-04-18 10:39:38,636 [1] INFO  CrystalReportConsole.Program - Connessione applicata a tutte le tabelle
+2025-04-18 10:39:55,963 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TASKT, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:39:58,743 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_COPERTINA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:40:01,736 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_VALUES, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:40:04,640 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TITOLO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:40:07,527 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PRESENTAZIONE, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:40:19,293 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_LOGO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:40:28,270 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_FIRMA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:40:33,583 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: Pm-@NUMBER_TASKT, Tipo: Number, Obbligatorio: True, Multivalore: False
+2025-04-18 10:40:57,154 [1] WARN  CrystalReportConsole.Program - Mancano 1 parametri, verranno aggiunte stringhe vuote
+2025-04-18 10:41:19,066 [1] WARN  CrystalReportConsole.Program - Parametro mancante n. 8: Pm-@NUMBER_TASKT
+2025-04-18 10:41:38,753 [1] INFO  CrystalReportConsole.Program - Impostazione di 8 parametri del report
+2025-04-18 10:41:45,816 [1] DEBUG CrystalReportConsole.Program - Parametro 1 (P_TASKT): 108666966
+2025-04-18 10:41:54,979 [1] DEBUG CrystalReportConsole.Program - Parametro 2 (P_COPERTINA): 1
+2025-04-18 10:41:59,737 [1] DEBUG CrystalReportConsole.Program - Parametro 3 (P_VALUES): 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:42:05,751 [1] DEBUG CrystalReportConsole.Program - Parametro 4 (P_TITOLO): Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:42:13,843 [1] DEBUG CrystalReportConsole.Program - Parametro 5 (P_PRESENTAZIONE): 0
+2025-04-18 10:42:17,240 [1] DEBUG CrystalReportConsole.Program - Parametro 6 (P_PATH_LOGO): X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:42:21,160 [1] DEBUG CrystalReportConsole.Program - Parametro 7 (P_PATH_FIRMA): X:\Logis-Svil\LogisD\
+2025-04-18 10:42:25,440 [1] DEBUG CrystalReportConsole.Program - Parametro 8 (Pm-@NUMBER_TASKT): 
+2025-04-18 10:44:08,912 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+System.Runtime.InteropServices.COMException (0x8002000B): Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   in CrystalDecisions.ReportAppServer.DataDefModel.FieldsClass.get_Item(Int32 Index)
+   in CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.get_Item(Int32 index)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(Int32 index, Object val)
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 356
+2025-04-18 10:44:08,959 [1] DEBUG CrystalReportConsole.Program - Pulizia delle risorse del report
+2025-04-18 10:44:09,000 [1] ERROR CrystalReportConsole.Program - Errore durante l'esecuzione: Eccezione lanciata da un componente esterno.
+System.Runtime.InteropServices.SEHException (0x80004005): Eccezione lanciata da un componente esterno.
+   in CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack formatPageEventCallBack)
+   in CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack eventCallback)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.ClearCache(Boolean clearDocument)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.InternalClose(Boolean bSetupForNextReport)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Close()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 415
+   in CrystalReportConsole.Program.Main(String[] args) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 171
+2025-04-18 10:44:14,566 [1] INFO  CrystalReportConsole.Program - === ProgressCrystalReport avviato ===
+2025-04-18 10:44:14,581 [1] DEBUG CrystalReportConsole.Program - Parsing di 10 parametri
+2025-04-18 10:44:14,581 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -r=Sregter.rpt
+2025-04-18 10:44:14,581 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -d=Logis-62012
+2025-04-18 10:44:14,581 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -p=reports
+2025-04-18 10:44:14,581 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -o=C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:44:14,581 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -f=Parms.txt
+2025-04-18 10:44:14,581 [1] DEBUG CrystalReportConsole.Program - Parametri parsati: -r, -d, -p, -o, -f
+2025-04-18 10:44:14,582 [1] INFO  CrystalReportConsole.Program - Report path: Sregter.rpt
+2025-04-18 10:44:14,582 [1] INFO  CrystalReportConsole.Program - DSN ODBC: Logis-62012
+2025-04-18 10:44:14,582 [1] INFO  CrystalReportConsole.Program - Output path: C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 10:44:14,582 [1] INFO  CrystalReportConsole.Program - Lettura parametri dal file: Parms.txt
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Trovati 7 parametri nel file
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 1 = 108666966
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 2 = 1
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 3 = 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 4 = Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 5 = 0
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 6 = X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:44:14,582 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 7 = X:\Logis-Svil\LogisD\
+2025-04-18 10:44:18,688 [1] INFO  CrystalReportConsole.Program - Avvio del report in corso...
+2025-04-18 10:44:18,990 [1] INFO  CrystalReportConsole.Program - Caricamento del report: Sregter.rpt
+2025-04-18 10:44:19,932 [1] INFO  CrystalReportConsole.Program - Numero Parametri richiesti: 8
+2025-04-18 10:44:19,933 [1] INFO  CrystalReportConsole.Program - Configurazione connessione ODBC...
+2025-04-18 10:44:19,934 [1] DEBUG CrystalReportConsole.Program - Applicazione informazioni di connessione alle tabelle...
+2025-04-18 10:44:19,955 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella: taskw
+2025-04-18 10:44:19,957 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_COPERTINA.rpt
+2025-04-18 10:44:19,957 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_DATI.rpt
+2025-04-18 10:44:19,958 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: taskt
+2025-04-18 10:44:19,959 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_GENE
+2025-04-18 10:44:19,959 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_TIDO
+2025-04-18 10:44:19,959 [1] INFO  CrystalReportConsole.Program - Connessione applicata a tutte le tabelle
+2025-04-18 10:44:19,960 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TASKT, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,961 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_COPERTINA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,961 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_VALUES, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,961 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TITOLO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,961 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PRESENTAZIONE, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,962 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_LOGO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,962 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_FIRMA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,962 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: Pm-@NUMBER_TASKT, Tipo: Number, Obbligatorio: True, Multivalore: False
+2025-04-18 10:44:19,962 [1] WARN  CrystalReportConsole.Program - Mancano 1 parametri, verranno aggiunte stringhe vuote
+2025-04-18 10:44:19,962 [1] WARN  CrystalReportConsole.Program - Parametro mancante n. 8: Pm-@NUMBER_TASKT
+2025-04-18 10:44:27,282 [1] INFO  CrystalReportConsole.Program - Impostazione di 8 parametri del report
+2025-04-18 10:44:38,534 [1] DEBUG CrystalReportConsole.Program - Parametro 1 (P_TASKT): 108666966
+2025-04-18 10:44:47,916 [1] DEBUG CrystalReportConsole.Program - Parametro 2 (P_COPERTINA): 1
+2025-04-18 10:44:49,540 [1] DEBUG CrystalReportConsole.Program - Parametro 3 (P_VALUES): 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 10:44:51,220 [1] DEBUG CrystalReportConsole.Program - Parametro 4 (P_TITOLO): Stampa Registri Rifiuti c/Terzi
+2025-04-18 10:44:52,999 [1] DEBUG CrystalReportConsole.Program - Parametro 5 (P_PRESENTAZIONE): 0
+2025-04-18 10:44:56,208 [1] DEBUG CrystalReportConsole.Program - Parametro 6 (P_PATH_LOGO): X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 10:45:01,405 [1] DEBUG CrystalReportConsole.Program - Parametro 7 (P_PATH_FIRMA): X:\Logis-Svil\LogisD\
+2025-04-18 10:45:06,110 [1] DEBUG CrystalReportConsole.Program - Parametro 8 (Pm-@NUMBER_TASKT): 
+2025-04-18 10:57:41,989 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+System.Runtime.InteropServices.COMException (0x8002000B): Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   in CrystalDecisions.ReportAppServer.DataDefModel.FieldsClass.get_Item(Int32 Index)
+   in CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.get_Item(Int32 index)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(Int32 index, Object val)
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 356
+2025-04-18 10:57:42,081 [1] DEBUG CrystalReportConsole.Program - Pulizia delle risorse del report
+2025-04-18 10:57:42,236 [1] ERROR CrystalReportConsole.Program - Errore durante l'esecuzione: Eccezione lanciata da un componente esterno.
+System.Runtime.InteropServices.SEHException (0x80004005): Eccezione lanciata da un componente esterno.
+   in CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack formatPageEventCallBack)
+   in CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack eventCallback)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.ClearCache(Boolean clearDocument)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.InternalClose(Boolean bSetupForNextReport)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Close()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 415
+   in CrystalReportConsole.Program.Main(String[] args) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 171
+2025-04-18 11:57:43,015 [1] INFO  CrystalReportConsole.Program - === ProgressCrystalReport avviato ===
+2025-04-18 11:57:43,035 [1] DEBUG CrystalReportConsole.Program - Parsing di 10 parametri
+2025-04-18 11:57:43,035 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -r=Sregter.rpt
+2025-04-18 11:57:43,035 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -d=Logis-62012
+2025-04-18 11:57:43,035 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -p=reports
+2025-04-18 11:57:43,035 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -o=C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 11:57:43,035 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: -f=Parms.txt
+2025-04-18 11:57:43,035 [1] DEBUG CrystalReportConsole.Program - Parametri parsati: -r, -d, -p, -o, -f
+2025-04-18 11:57:43,036 [1] INFO  CrystalReportConsole.Program - Report path: Sregter.rpt
+2025-04-18 11:57:43,036 [1] INFO  CrystalReportConsole.Program - DSN ODBC: Logis-62012
+2025-04-18 11:57:43,036 [1] INFO  CrystalReportConsole.Program - Output path: C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 11:57:43,036 [1] INFO  CrystalReportConsole.Program - Lettura parametri dal file: Parms.txt
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Trovati 7 parametri nel file
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 1 = 108666966
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 2 = 1
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 3 = 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 4 = Stampa Registri Rifiuti c/Terzi
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 5 = 0
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 6 = X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 11:57:43,037 [1] DEBUG CrystalReportConsole.Program - Parametro report da file: 7 = X:\Logis-Svil\LogisD\
+2025-04-18 11:57:43,078 [1] INFO  CrystalReportConsole.Program - Avvio del report in corso...
+2025-04-18 11:57:43,660 [1] INFO  CrystalReportConsole.Program - Caricamento del report: Sregter.rpt
+2025-04-18 11:57:45,112 [1] INFO  CrystalReportConsole.Program - Numero Parametri richiesti: 8
+2025-04-18 11:57:45,112 [1] INFO  CrystalReportConsole.Program - Configurazione connessione ODBC...
+2025-04-18 11:57:45,113 [1] DEBUG CrystalReportConsole.Program - Applicazione informazioni di connessione alle tabelle...
+2025-04-18 11:57:45,141 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella: taskw
+2025-04-18 11:57:45,142 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_COPERTINA.rpt
+2025-04-18 11:57:45,143 [1] DEBUG CrystalReportConsole.Program - Applicazione connessione al subreport: S_DATI.rpt
+2025-04-18 11:57:45,144 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: taskt
+2025-04-18 11:57:45,144 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_GENE
+2025-04-18 11:57:45,144 [1] DEBUG CrystalReportConsole.Program - Applicata connessione alla tabella del subreport: LNC_TIDO
+2025-04-18 11:57:45,144 [1] INFO  CrystalReportConsole.Program - Connessione applicata a tutte le tabelle
+2025-04-18 11:57:45,146 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TASKT, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,147 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_COPERTINA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,147 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_VALUES, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,147 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_TITOLO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,148 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PRESENTAZIONE, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,149 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_LOGO, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,149 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: P_PATH_FIRMA, Tipo: String, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,149 [1] DEBUG CrystalReportConsole.Program - Parametro trovato: Pm-@NUMBER_TASKT, Tipo: Number, Obbligatorio: True, Multivalore: False
+2025-04-18 11:57:45,149 [1] WARN  CrystalReportConsole.Program - Mancano 1 parametri, verranno aggiunte stringhe vuote
+2025-04-18 11:57:45,150 [1] WARN  CrystalReportConsole.Program - Parametro mancante n. 8: Pm-@NUMBER_TASKT
+2025-04-18 11:57:52,532 [1] INFO  CrystalReportConsole.Program - Impostazione di 8 parametri del report
+2025-04-18 11:57:52,534 [1] DEBUG CrystalReportConsole.Program - Parametro 1 (P_TASKT): 108666966
+2025-04-18 11:57:52,544 [1] DEBUG CrystalReportConsole.Program - Parametro 2 (P_COPERTINA): 1
+2025-04-18 11:57:52,545 [1] DEBUG CrystalReportConsole.Program - Parametro 3 (P_VALUES): 0,00000000001/01/2024sapir ct31/12/2024ProduttoreProvvisoria00
+2025-04-18 11:57:52,545 [1] DEBUG CrystalReportConsole.Program - Parametro 4 (P_TITOLO): Stampa Registri Rifiuti c/Terzi
+2025-04-18 11:57:52,545 [1] DEBUG CrystalReportConsole.Program - Parametro 5 (P_PRESENTAZIONE): 0
+2025-04-18 11:57:52,546 [1] DEBUG CrystalReportConsole.Program - Parametro 6 (P_PATH_LOGO): X:\Logis-Svil\LogisH-SVIL\
+2025-04-18 11:57:52,546 [1] DEBUG CrystalReportConsole.Program - Parametro 7 (P_PATH_FIRMA): X:\Logis-Svil\LogisD\
+2025-04-18 11:57:52,547 [1] DEBUG CrystalReportConsole.Program - Parametro 8 (Pm-@NUMBER_TASKT): 
+2025-04-18 11:57:52,589 [1] ERROR CrystalReportConsole.Program - Errore durante la generazione del report: Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+System.Runtime.InteropServices.COMException (0x8002000B): Indice non valido. (Eccezione da HRESULT: 0x8002000B (DISP_E_BADINDEX))
+   in CrystalDecisions.ReportAppServer.DataDefModel.FieldsClass.get_Item(Int32 Index)
+   in CrystalDecisions.CrystalReports.Engine.ParameterFieldDefinitions.get_Item(Int32 index)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.SetParameterValue(Int32 index, Object val)
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 356
+2025-04-18 11:57:52,714 [1] DEBUG CrystalReportConsole.Program - Pulizia delle risorse del report
+2025-04-18 11:57:52,754 [1] ERROR CrystalReportConsole.Program - Errore durante l'esecuzione: Eccezione lanciata da un componente esterno.
+System.Runtime.InteropServices.SEHException (0x80004005): Eccezione lanciata da un componente esterno.
+   in CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack formatPageEventCallBack)
+   in CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.RemoveAfterFormatPageEventCallBack(ISCRAfterFormatPageEventCallBack eventCallback)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.ClearCache(Boolean clearDocument)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.InternalClose(Boolean bSetupForNextReport)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Close()
+   in CrystalReportConsole.Program.LaunchReport(String reportPath, String odbcDsn, String username, String password, String outputPath, List`1 reportParams) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 415
+   in CrystalReportConsole.Program.Main(String[] args) in C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\Program.cs:riga 171
+2025-04-18 14:10:32,596 [1] INFO  ProgressCrystalReport.Utils.LogHelper - === ProgressCrystalReport avviato ===
+2025-04-18 14:10:42,136 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Visualizzazione messaggio di aiuto
+2025-04-18 14:12:49,113 [1] INFO  ProgressCrystalReport.Utils.LogHelper - === ProgressCrystalReport avviato ===
+2025-04-18 14:13:57,141 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Avvio del report in corso...
+2025-04-18 14:13:57,142 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Report path: Sregter.rpt
+2025-04-18 14:13:57,142 [1] INFO  ProgressCrystalReport.Utils.LogHelper - DSN ODBC: Logis-62012
+2025-04-18 14:13:57,142 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Output path: C:\Users\alza\Documents\CrystalReport\Prova.pdf
+2025-04-18 14:13:57,142 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Lettura parametri dal file: Parms.txt
+2025-04-18 14:13:57,563 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Caricamento del report: Sregter.rpt
+2025-04-18 14:13:58,813 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Numero Parametri richiesti: 8
+2025-04-18 14:13:58,824 [1] WARN  ProgressCrystalReport.Utils.LogHelper - Mancano 1 parametri, verranno aggiunte stringhe vuote
+2025-04-18 14:13:58,824 [1] WARN  ProgressCrystalReport.Utils.LogHelper - Parametro mancante n. 8: Pm-@NUMBER_TASKT
+2025-04-18 14:13:58,825 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Impostazione di 8 parametri del report
+2025-04-18 14:13:58,838 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Configurazione connessione ODBC...
+2025-04-18 14:13:58,865 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Connessione applicata a tutte le tabelle
+2025-04-18 14:13:58,865 [1] INFO  ProgressCrystalReport.Utils.LogHelper - Recupero dei dati...
+2025-04-18 14:13:58,958 [1] ERROR ProgressCrystalReport.Utils.LogHelper - Errore durante la generazione del report: Errore nel file Sregter 62004_65032_{26CD7209-6B21-45E8-A063-D48E37E44A4E}.rpt:
+Operazione illegale su un parametro collegato.
+CrystalDecisions.CrystalReports.Engine.ParameterFieldException: Errore nel file Sregter 62004_65032_{26CD7209-6B21-45E8-A063-D48E37E44A4E}.rpt:
+Operazione illegale su un parametro collegato. ---> System.Runtime.InteropServices.COMException: Errore nel file Sregter 62004_65032_{26CD7209-6B21-45E8-A063-D48E37E44A4E}.rpt:
+Operazione illegale su un parametro collegato.
+   in CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Refresh()
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in CrystalDecisions.ReportAppServer.ConvertDotNetToErom.ThrowDotNetException(Exception e)
+   in CrystalDecisions.ReportSource.EromReportSourceBase.HandleException(Exception exception)
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.FormatEngine.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+   in ProgressCrystalReport.Services.ReportExecutor.ExecuteReport(ApplicationParameters appParams)
+2025-04-18 14:14:23,684 [1] ERROR ProgressCrystalReport.Utils.LogHelper - Errore durante l'esecuzione: Errore nel file Sregter 62004_65032_{26CD7209-6B21-45E8-A063-D48E37E44A4E}.rpt:
+Operazione illegale su un parametro collegato.
+CrystalDecisions.CrystalReports.Engine.ParameterFieldException: Errore nel file Sregter 62004_65032_{26CD7209-6B21-45E8-A063-D48E37E44A4E}.rpt:
+Operazione illegale su un parametro collegato. ---> System.Runtime.InteropServices.COMException: Errore nel file Sregter 62004_65032_{26CD7209-6B21-45E8-A063-D48E37E44A4E}.rpt:
+Operazione illegale su un parametro collegato.
+   in CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Refresh()
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   --- Fine della traccia dello stack dell'eccezione interna ---
+   in CrystalDecisions.ReportAppServer.ConvertDotNetToErom.ThrowDotNetException(Exception e)
+   in CrystalDecisions.ReportSource.EromReportSourceBase.HandleException(Exception exception)
+   in CrystalDecisions.ReportSource.EromReportSourceBase.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.FormatEngine.Refresh(RequestContext reqContext)
+   in CrystalDecisions.CrystalReports.Engine.ReportDocument.Refresh()
+   in ProgressCrystalReport.Services.ReportExecutor.ExecuteReport(ApplicationParameters appParams)
+   in ProgressCrystalReport.Program.Main(String[] args)
+2025-04-18 14:14:23,685 [1] INFO  ProgressCrystalReport.Utils.LogHelper - === ProgressCrystalReport terminato ===

@@ -1,0 +1,15 @@
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\bin\Debug\log4net.config
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\bin\Debug\ProgressCrystalReport.exe.config
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\bin\Debug\ProgressCrystalReport.exe
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\bin\Debug\ProgressCrystalReport.pdb
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\bin\Debug\log4net.dll
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\ProgressCrystalReport.csproj.AssemblyReference.cache
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\ProgressCrystalReport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\ProgressCrystalReport.AssemblyInfoInputs.cache
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\ProgressCrystalReport.AssemblyInfo.cs
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\ProgressCrystalReport.csproj.CoreCompileInputs.cache
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\Progress.3AB45BBB.Up2Date
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\ProgressCrystalReport.exe
+C:\Users\alza\source\repos\ProgressCrystalReport\ProgressCrystalReport\obj\Debug\ProgressCrystalReport.pdb

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProgressCrystalReport": {
+      "commandName": "Project",
+      "commandLineArgs": "-r \"Sregter.rpt\" -d Logis-62012 -p reports -o \"C:\\Users\\alza\\Documents\\CrystalReport\\Prova.pdf\" -f \"Parms.txt\""
+    }
+  }
+}
